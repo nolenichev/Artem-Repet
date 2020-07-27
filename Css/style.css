@@ -100,10 +100,6 @@ footer {
     height: 35px;
 }
 
-.social img:hover {
-    transform: scale(1.5);
-}
-
 #text-me {
     background-color: steelblue;
     color: white;
