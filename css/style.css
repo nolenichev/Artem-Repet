@@ -42,7 +42,6 @@ main {
 
 .profile-photo {
     min-width: 250px;
-    max-width: 550px;
     border-radius: 25px ;
     border: steelblue solid 1px;
     width: 100%;
@@ -122,12 +121,16 @@ footer {
         padding: 1em 1em 1em 1em;
     }
 
+    .profile-photo {
+        scale: 0.9;
+    }
+
     .info {
         padding: 1em 1em 1em 1em;
     }
 }
 
-@media only screen and (min-width: 401px) and (max-width: 800px) {
+@media only screen and (min-width: 401px) and (max-width: 900px) {
     header {
         grid-template-columns: 1fr 0fr 1fr;
         font-size: 1em;
@@ -159,7 +162,7 @@ footer {
     }
 } */
 
-@media only screen and (min-width: 801px) and (max-width: 2000px)
+@media only screen and (min-width: 901px) and (max-width: 2000px)
 {
     main {
         grid-template-columns: 1fr 2fr;
